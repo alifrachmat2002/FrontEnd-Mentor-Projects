@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://your-live-site-url.com](https://social-profile-eta.vercel.app/))
+- [Live Site URL](https://social-profile-eta.vercel.app/))
 
 ## My process
 
