@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.social-profile {
+    /* border: 1px solid white; */
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+
+    width: 388px;
+    height: 611px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contents {
+    /* border: 1px solid white; */
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+
+}
+
+.identity {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 72px;
+    margin: 10px 0;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.location {
+    font-size: 12px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+a {
+    all : unset;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+}
+.contact-card {
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.2s ease;
+    /* border: 1px solid white;  */
+}
+
+.contact-card:hover {
+    background-color:  hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
